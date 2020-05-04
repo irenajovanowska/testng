@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="DependsOnMethods Test Suite">
+    <test name="Exclude Method">
+        <classes>
+            <class name="dependencies.DependsOnMethodsTests">
+                <methods>
+                    <exclude name="testSearchUser"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

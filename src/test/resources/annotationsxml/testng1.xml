@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="TestNG Test Suite - 1">
+    <test name="Customer and Product Search">
+        <classes>
+            <class name="annotations.ConfigurationAnnotations">
+                <methods>
+                    <include name="searchCustomer"/>
+                    <include name="searchProduct"/>
+                </methods>
+            </class>
+        </classes>
+    </test> <!-- End of Test "Customer and Product Search" -->
+</suite> <!-- End of Test Suite "TestNG Test Suite - 1" -->

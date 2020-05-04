@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="DependsOnGroups Test Suite - 6">
+    <test name="Include Groups from 2 Classes">
+        <groups>
+            <run>
+                <include name="regression"/>
+                <include name="initialize"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="dependencies.GroupsTests"/>
+            <class name="dependencies.DependsOnGroupsTests"/>
+        </classes>
+    </test>
+</suite>
